@@ -1,0 +1,62 @@
+.addEmergencyCloseContainer{
+  margin-top: 20px;
+  display: flex;
+  .itemHolder{
+    margin-right: 15px;
+    .itemName{
+      font-size: 11px;
+      color: #646464;
+    }
+    .checkboxGroup{
+      position: relative;
+      top: 11px;
+    }
+  }
+  .itemHolder:last-child{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    top: -10px;
+  }
+}
+.emergencyCloseList{
+  margin-bottom: 30px;
+  margin-top: 25px;
+  >div{
+    color: #646464;
+    font-size: 14px;
+    &::before{
+      width: 5px;
+      height: 5px;
+      background: #ffcc33;
+      display: inline-block;
+      content: "";
+      margin-right: 5px;
+      position: relative;
+      top: -3px;
+      margin-top: 15px;
+    }
+    >span{
+      display: none;
+      margin-left: 7px;
+      font-size: 20px;
+      position: relative;
+      top: 4px;
+      line-height: 0px;
+    }
+    &:hover{
+      >span{
+        display: inline;
+      }
+      >span:hover{
+        color: #333;
+      }
+      >span:first-child{
+        margin-left: 10px;
+      }
+      >span:last-child{
+        top: 6px;
+      }
+    }
+  }
+}

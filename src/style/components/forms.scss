@@ -1,0 +1,263 @@
+input, textarea{
+    font-family: 'Nunito', sans-serif !important;
+    outline: none;
+}
+.formContainter{
+    .inputGroup {
+        margin-top: 20px;
+        .inputTiele{
+            font-size: 16px;
+        }
+        .inputDescription{
+            font-size: 11px;
+            color: #646464;
+        }
+        .standardInput {
+            margin-top: 8px;
+            min-width: 300px;
+            border-radius: 5px;
+            border: none;
+            transition: border 0.4s ease-out;
+            padding: 13px;
+            font-size: 14px;
+            color: #3e3e42;
+            background: #cfcfcf;
+        }
+        .standardInput:focus {
+            box-shadow: 0px 0px 5px #ffcc33;
+        }
+        .standardInput::placeholder {
+            font-size: 13px; 
+            color: #333;
+        }
+
+        .mediumInput {
+            margin-top: 8px;
+            min-width: 200px;
+            border-radius: 5px;
+            border: none;
+            transition: border 0.4s ease-out;
+            padding: 13px;
+            font-size: 14px;
+            color: #3e3e42;
+            background: #cfcfcf;
+        }
+        .mediumInput:focus {
+            box-shadow: 0px 0px 5px #ffcc33;
+        }
+        .mediumInput::placeholder {
+            font-size: 13px; 
+            color: #333;
+        }
+
+        .smallInput {
+            margin-top: 8px;
+            max-width: 100px;
+            border-radius: 5px;
+            border: none;
+            transition: border 0.4s ease-out;
+            padding: 13px;
+            font-size: 14px;
+            color: #3e3e42;
+            background: #cfcfcf;
+        }
+        .smallInput:focus {
+            box-shadow: 0px 0px 5px #ffcc33;
+        }
+        .smallInput::placeholder {
+            font-size: 13px; 
+            color: #333;
+        }
+
+        .standardBtn>span{
+            padding: 10px 30px;
+            background-color: #ffcc33; 
+            border: 0;
+            font-size: 15px;
+            color: #333;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 14px;
+            border: 2px solid #ffcc33;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: .3s;
+        }
+        .standardBtn>span:hover{
+            border: 2px solid #333;
+        }
+
+        .standardTextArea_standard{
+            min-width: 500px;
+            min-height: 200px;
+        }
+
+        .standardTextArea_min{
+            min-width: 500px;
+            min-height: 80px;
+        }
+
+        .standardTextArea{
+            margin-top: 8px;
+            border-radius: 5px;
+            border: none;
+            transition: border 0.4s ease-out;
+            padding: 13px;
+            font-size: 14px;
+            color: #3e3e42;
+            background: #cfcfcf;
+        }
+        .standardTextArea:focus {
+            box-shadow: 0px 0px 5px #ffcc33;
+        }
+
+        .standardInputSmall{
+            margin-top: 8px;
+            width: 100px;
+            border-radius: 5px;
+            border: none;
+            transition: border 0.4s ease-out;
+            padding: 13px;
+            font-size: 14px;
+            color: #3e3e42;
+            background: #cfcfcf;
+        }
+
+        .gropuName{
+            font-size: 11px;
+            color: #646464;
+            margin-top: 5px;
+            text-align: right;
+            width: 70px;
+        }
+        .dayHourGroup{
+            display: flex;
+            align-items: center;
+            div {
+                padding: 0 10px;
+            }
+        }
+        .smallDropzoneField{
+            width: 100%;
+            max-width: 500px;
+            background: #cfcfcf;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .smallDropzoneFieldLogo{
+            margin-top: 10px;
+        }
+        * {
+            outline: none !important;
+        }
+        .dropzone{
+            
+        }
+        .previewLabel{
+            font-size: 11px;
+            color: #646464;
+            margin-top: 10px;
+        }
+        .previewImage{
+            margin-right: 10px;
+        }
+        .previewItems{
+            display: flex;
+            align-items: center;
+            .previewImage:hover{
+                .deleteMask{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    background: #a51e1e7c;
+                    width: 100px;
+                    height: 100px;
+                    position: absolute;
+                    color: #cfcfcf;
+                    font-size: 40px;
+                    div{
+                        margin-top: 15px;
+                    }
+                    cursor: pointer;
+                }
+            }
+            .previewImage{
+                width: 100px;
+                .deleteMask{
+                    display: none;
+                }
+            }
+        }
+        .additionalMargin{
+            margin-top: 20px;
+        }
+        .sendBtn{
+            margin-left: 20px;
+        }
+    }
+    .formFloatInput{
+        display: flex;
+        .inputGroup{
+            margin-right: 20px;
+        }
+    }
+    .checkboxGroup{
+        margin-top: 7px;
+    }
+    .map{
+        margin-top: 20px;
+    }
+    .mapSearchInput{
+        margin-bottom: 20px;
+    }
+    .labelButton{
+        display: flex;
+        align-items: baseline;
+        div {
+            margin-left: 10px;
+        }
+    }
+}
+
+.restaurantGallery{
+    .lightbox-container{
+        display: flex;
+        .removeBtn{
+            position: absolute;
+            padding: 5px 10px 10px 5px;
+            background: #cfcfcf;
+            border-radius: 100%;
+            width: 10px;
+            height: 10px;
+            transition: .3s;
+        }
+        .removeBtn:hover{
+            cursor: pointer;
+            background: #b94545;
+        }
+    }
+}
+.mapHolder{
+    max-width: 100%;
+    .leaflet-container{
+        max-height: 350px;
+    }
+}
+
+.dropzoneBtn{
+    margin-right: 15px;
+}
+
+.saveHourButton{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media all and (max-width: 1100px){
+	.formFloatInput{
+        flex-direction: column;
+    }
+}

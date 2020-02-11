@@ -1,0 +1,61 @@
+.main-workers-view{
+	display: block;
+	overflow: auto;
+}
+
+.workers-list{
+	display: inline-block;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
+.icon{
+	height: 20px;
+	width: auto;
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.btn{
+	float: right;
+	display: inline-block;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+}
+
+.workers-view{
+	position: relative;
+	text-align: left;
+	border-bottom: 2px solid blue;
+	overflow: auto;
+
+}
+
+.title{
+	text-align: center;
+}
+
+.add-worker{
+	padding: 15px;
+	position: relative;
+	overflow: auto;
+}
+
+.form-popup {
+	display: none;
+	position: fixed;
+	/* top: 250px; */
+	left: 265px;
+	bottom: 10px;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #ffcc33;
+}

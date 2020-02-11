@@ -1,0 +1,183 @@
+.categoryContainer{
+  .categoryTailsContainer{
+    display: flex;
+    margin-top: 20px;
+
+    .categoryTail{
+      padding: 6px 15px;
+      background: #cfcfcf;
+      border-radius: 25px;
+      margin-right: 10px;
+      font-size: 13px;
+      transition: background .3s;
+      word-wrap: none;
+      white-space: nowrap;
+      text-align: center;
+
+      &:hover{
+        background: #ffcc33;
+        cursor: pointer;
+      }
+    }
+    .addNewCategoryTile{
+      padding-left: 12px;
+      background: #ffcc33;
+      &:hover{
+        background: #cfcfcf;
+      }
+      span{
+        position: relative;
+        top: 2px;
+        margin-right: 3px;
+      }
+    }
+    .activeTile{
+      background: #ffcc33;
+    }
+  }
+
+  .addNewCategoryForm{
+    display: flex;
+    align-items: center;
+    .inputGroup{
+      margin-right: 15px;
+      .standardBtn{
+        position: relative;
+        top: 11px;
+      }
+    }
+  }
+}
+
+.menuHolder{
+  .menuCategoryGroup{
+    margin-top: 20px;
+    .name{
+      font-size: 18px;
+      border-bottom: 2px solid #ffcc33;
+      // max-width: 400px;
+      padding-bottom: 3px;
+      font-weight: bold;
+      .addNewDish{
+        float: right;
+        transition: .3s;
+        padding: 4px 4px 4px 4px;
+        line-height: 0;
+        border-radius: 100%;
+        display: inline-block;
+      }
+      .addNewDish:hover{
+        background: #ffcc33;
+        cursor: pointer;
+      }
+    }
+    .addDishForm{
+      margin-top: 15px;
+      border: 1px solid rgb(207, 207, 207);
+      padding: 0px 10px 20px 10px;
+      border-radius: 10px;
+      background: #f7f7f7;
+      .iconHolder{
+        margin-bottom: -13px;
+        margin-top: 7px;
+        font-size: 20px;
+      }
+      .iconHolder:hover{
+        cursor: pointer;
+      }
+      .hideForm{
+        float: right;
+        margin-bottom: -10px;
+      }
+      .inputGroup:first-child {
+        display: none;
+      }
+    }
+    .menuItemList{
+      margin-top: 10px;
+      .menuItem{
+        font-size: 14px;
+        margin-bottom: 20px;
+        background: #f7f7f7;
+        padding: 10px 10px 0px 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(207, 207, 207);
+        transition: .3s;
+        .actionBar{
+          display: none;
+          justify-content: flex-end;
+          margin-bottom: -20px;
+          .actionIcon{
+            margin-right: 5px;
+            color: rgb(126, 126, 126);
+            font-size: 20px;
+          }
+          .actionIcon:hover{
+            color: #333;
+            cursor: pointer;
+          }
+        }
+        .name{
+          font-size: 16px;
+          border-bottom: none;
+        }
+        .ingredients{
+          color: #646464;
+          span {
+            color: #333;
+            margin-right: 10px;
+          }
+        }
+        .description{
+
+        }
+        .fotoBar{
+          .lightbox-container{
+            display: flex;
+            .fotoItem{
+              img{
+                max-width: 100px;
+                max-height: 100px;
+              }
+            }
+          }
+        }
+      }
+      .menuItem:hover{
+        box-shadow: 2px 2px 5px -2px #333;
+        .actionBar{
+          display: flex;
+        }
+      }
+    }
+    .menuCategoryForm{
+
+    }
+  }
+}
+.clear{
+  clear: both;
+}
+.imagePlaceholder{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.bottomMargin{
+  margin-bottom: 10px;
+}
+
+.sortableImageBar{
+  .draggable{
+    float: none !important;
+  }
+  .List{
+    display: flex;
+  }
+}

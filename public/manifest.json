@@ -1,0 +1,16 @@
+{
+  "short_name": "lotino",
+  "name": "lotino",
+  "icons": [
+    {
+      "src": "ico.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "file:///media/DATA/aProjects/lotino/admin-dashboard/build/",
+  "homepage": "file:///media/DATA/aProjects/lotino/admin-dashboard/build/",
+  "display": "standalone",
+  "theme_color": "#ffcc33",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,79 @@
+  .left-arrow {
+    display: inline-block;  
+    padding: 5px;
+  }
+
+  .right-arrow {
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .slider{
+    width: auto;
+    height: auto;
+    overflow: auto;
+  }
+  
+  .fileInput{
+    margin-top: 10px;
+  }
+
+  .unactive {
+    cursor: pointer;
+    display: inline-block;
+    margin: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1.4px solid blue;
+    background: white;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .indicators{
+    float: left;
+  }
+
+  .active{
+    background: rgba(132, 132, 184, 0.5);    
+     cursor: pointer;
+    display: inline-block;
+    margin: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1.4px solid blue;
+    background: white;
+    font-size: 18px;
+    text-align: center;  
+  }
+
+  .slider-wrapper {
+    padding: 5px;
+    display: inline-block;
+
+  }
+  .transparent{
+    width: auto;
+    height: auto;
+    background-color: rgba(206, 206, 221,0.5);
+    overflow:auto;
+  }
+  
+  .slider::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .slide{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .preview{
+    max-width:240px; 
+    height:auto; 
+}
